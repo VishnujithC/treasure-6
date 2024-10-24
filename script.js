@@ -5,7 +5,7 @@ function checkAnswer() {
     const userAnswer = document.getElementById("answer").value.toLowerCase();
 
     if (userAnswer === correctAnswer) {
-        document.getElementById("correct").innerHTML = '<h1>Congratulations! You solved the riddle. Clue: Water AB345';
+        document.getElementById("correct").innerHTML = '<h1>Congratulations! You solved the riddle. Clue: parking';
         
     } else {
         document.getElementById("correct").innerHTML = '<h1>Oops.Try again</h1>';
